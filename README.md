@@ -1,3 +1,3 @@
-# Quantum-Machine-Learning-Qiskit-
+# Quantum-Machine-Learning-Qiskit
 
 This project demonstrates a hybrid quantum-classical machine learning workflow using Qiskit to build a Variational Quantum Classifier (VQC). Leveraging datasets sourced from Nature, the model integrates quantum circuits (via ZZFeatureMap and TwoLocal/RealAmplitudes ansatzes) with classical preprocessing (PCA, scikit-learn) to achieve 71% test accuracy. Key features include live training visualization, model persistence for warm-starting, and hyperparameter optimization (COBYLA/SPSA). The code explores trade-offs between quantum circuit complexity (30% gate reduction) and classical data handling, providing a template for scalable quantum ML applications. Clone the repository to replicate experiments, visualize convergence trends, or adapt the workflow for custom datasets. Built with Python, Qiskit, and Matplotlib.
